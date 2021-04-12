@@ -6,7 +6,7 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/avissian/pterm/internal"
 )
 
 // BarChartPrinter is used to print bar charts.
