@@ -1,13 +1,13 @@
 # BarChartPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      barchart BarChart BarChartPrinter DefaultBarChart
 -->
 
-![BarChartPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/barchart/animation.svg)
+![BarChartPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/barchart/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/barchart/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/barchart/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -49,19 +49,19 @@ bars := pterm.Bars{
 
 |Option|Type|
 |------|----|
-|[Bars](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.Bars)|[Bars](https://pkg.go.dev/github.com/pterm/pterm#Bars)|
-|[Horizontal](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.Horizontal)|bool|
-|[ShowValue](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.ShowValue)|bool|
-|[Height](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.Height)|int|
-|[Width](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.Width)|int|
-|[VerticalBarCharacter](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.VerticalBarCharacter)|string|
-|[HorizontalBarCharacter](https://pkg.go.dev/github.com/pterm/pterm#BarChartPrinter.HorizontalBarCharacter)|string|
+|[Bars](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.Bars)|[Bars](https://pkg.go.dev/github.com/avissian/pterm#Bars)|
+|[Horizontal](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.Horizontal)|bool|
+|[ShowValue](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.ShowValue)|bool|
+|[Height](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.Height)|int|
+|[Width](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.Width)|int|
+|[VerticalBarCharacter](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.VerticalBarCharacter)|string|
+|[HorizontalBarCharacter](https://pkg.go.dev/github.com/avissian/pterm#BarChartPrinter.HorizontalBarCharacter)|string|
 
 ### Output functions
 <!-- Remove comment of the correct interface -->
 
 <!--
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|
@@ -73,7 +73,7 @@ bars := pterm.Bars{
 |Printf(format string, a ...interface{})|Prints to the terminal, formatted according to a format specifier|
 -->
 
-> This printer implements the interface [`RenderablePrinter`](https://github.com/pterm/pterm/blob/master/interface_renderable_printer.go)
+> This printer implements the interface [`RenderablePrinter`](https://github.com/avissian/pterm/blob/master/interface_renderable_printer.go)
 
 |Function|Description|
 |------|---------|
@@ -81,7 +81,7 @@ bars := pterm.Bars{
 |Srender()|Returns a string|
 
 <!--
-> This printer implements the interface [`LivePrinter`](https://github.com/pterm/pterm/blob/master/interface_live_printer.go)
+> This printer implements the interface [`LivePrinter`](https://github.com/avissian/pterm/blob/master/interface_live_printer.go)
 
 |Function|Description|
 |------|---------|

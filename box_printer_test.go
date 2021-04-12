@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/avissian/pterm/internal"
 )
 
 func TestBoxPrinterNilPrint(t *testing.T) {

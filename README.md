@@ -5,20 +5,20 @@
 
 <p align="center">
 
-<a href="https://github.com/pterm/pterm/releases">
-<img src="https://img.shields.io/github/v/release/pterm/pterm?style=flat-square" alt="Latest Release">
+<a href="https://github.com/avissian/pterm/releases">
+<img src="https://img.shields.io/github/v/release/avissian/pterm?style=flat-square" alt="Latest Release">
 </a>
 
-<a href="https://github.com/pterm/pterm/stargazers">
-<img src="https://img.shields.io/github/stars/pterm/pterm.svg?style=flat-square" alt="Stars">
+<a href="https://github.com/avissian/pterm/stargazers">
+<img src="https://img.shields.io/github/stars/avissian/pterm.svg?style=flat-square" alt="Stars">
 </a>
 
-<a href="https://github.com/pterm/pterm/fork">
-<img src="https://img.shields.io/github/forks/pterm/pterm.svg?style=flat-square" alt="Forks">
+<a href="https://github.com/avissian/pterm/fork">
+<img src="https://img.shields.io/github/forks/avissian/pterm.svg?style=flat-square" alt="Forks">
 </a>
 
-<a href="https://github.com/pterm/pterm/issues">
-<img src="https://img.shields.io/github/issues/pterm/pterm.svg?style=flat-square" alt="Issues">
+<a href="https://github.com/avissian/pterm/issues">
+<img src="https://img.shields.io/github/issues/avissian/pterm.svg?style=flat-square" alt="Issues">
 </a>
 
 <a href="https://opensource.org/licenses/MIT">
@@ -33,16 +33,16 @@
 
 <br/>
 
-<a href="https://codecov.io/gh/pterm/pterm">
-<img src="https://img.shields.io/codecov/c/gh/pterm/pterm?color=magenta&logo=codecov&style=flat-square" alt="Downloads">
+<a href="https://codecov.io/gh/avissian/pterm">
+<img src="https://img.shields.io/codecov/c/gh/avissian/pterm?color=magenta&logo=codecov&style=flat-square" alt="Downloads">
 </a>
 
-<a href="https://codecov.io/gh/pterm/pterm">
+<a href="https://codecov.io/gh/avissian/pterm">
 <!-- unittestcount:start --><img src="https://img.shields.io/badge/Unit_Tests-5455-magenta?style=flat-square" alt="Forks"><!-- unittestcount:end -->
 </a>
 
-<a href="https://github.com/pterm/pterm/tree/master/_examples/demo">
-<img src="https://raw.githubusercontent.com/pterm/pterm/master/_examples/demo/animation.svg" alt="PTerm">
+<a href="https://github.com/avissian/pterm/tree/master/_examples/demo">
+<img src="https://raw.githubusercontent.com/avissian/pterm/master/_examples/demo/animation.svg" alt="PTerm">
 <p align="center">Show Demo Code</p>
 </a>
 
@@ -63,7 +63,7 @@
 |
 <strong><a href="#-examples">Examples</a></strong>
 |
-<strong><a href="https://github.com/pterm/pterm/discussions?discussions_q=category%3AQ%26A">Q&A</a></strong>
+<strong><a href="https://github.com/avissian/pterm/discussions?discussions_q=category%3AQ%26A">Q&A</a></strong>
 |
 <strong><a href="./CONTRIBUTING.md">Contributing</a></strong>
 </p>
@@ -76,12 +76,12 @@ To make PTerm available in your project, you can run the following command.\
 Make sure to run this command inside your project, when you're using go modules 😉
 
 ```sh
-go get github.com/pterm/pterm
+go get github.com/avissian/pterm
 ```
 
 ## 🥅 Goal of PTerm
 
-PTerm is designed to create a **platform independent way to create beautiful terminal output**. Most modules that want to improve the terminal output do not guarantee platform independence - PTerm does. PTerm follows the **most common methods for displaying color in a terminal**. With PTerm, it is possible to create beautiful output **even in low-level environments**. 
+PTerm is designed to create a **platform independent way to create beautiful terminal output**. Most modules that want to improve the terminal output do not guarantee platform independence - PTerm does. PTerm follows the **most common methods for displaying color in a terminal**. With PTerm, it is possible to create beautiful output **even in low-level environments**.
 
 ### • 🪀 Easy to use
 
@@ -114,7 +114,7 @@ We take special precautions to ensure that PTerm works on as many operating syst
 > PTerm has a 100% test coverage, which means that every line of code inside PTerm gets tested automatically
 
 We test PTerm continuously. However, since a human cannot test everything all the time, we have our own test system with which we currently run <!-- unittestcount2:start -->**`5455`**<!-- unittestcount2:end -->
-automated tests to ensure that PTerm has no bugs. 
+automated tests to ensure that PTerm has no bugs.
 
 ### • ✨ Consistent Colors
 
@@ -139,7 +139,7 @@ If you want to wait for a stable release, make sure to star the project and foll
 
 ## ✏ Documentation
 
-To view the official documentation of the latest release, you can go to the automatically generated page of [pkg.go.dev](https://pkg.go.dev/github.com/pterm/pterm) This documentation is very technical and includes every method that can be used in PTerm.
+To view the official documentation of the latest release, you can go to the automatically generated page of [pkg.go.dev](https://pkg.go.dev/github.com/avissian/pterm) This documentation is very technical and includes every method that can be used in PTerm.
 
 **For an easy start we recommend that you take a look at the [examples section](#-examples).** Here you can see pretty much every feature of PTerm with its source code. The animations of the examples are automatically updated as soon as something changes in PTerm.
 
@@ -147,14 +147,14 @@ Have fun exploring this project 🚀
 
 ## 💖 Contributing
 
-If you have found a bug or want to suggest a feature, you can do so [here](https://github.com/pterm/pterm/issues) by opening a new issue.
+If you have found a bug or want to suggest a feature, you can do so [here](https://github.com/avissian/pterm/issues) by opening a new issue.
 
 If you want to contribute to the development of PTerm, you are very welcome to do so. Our contribution guidelines can be found [here](CONTRIBUTING.md).
 
 ## 💕 Support
 
 <p align="center">
-If you want to support me in further developing my open source projects, you can give me a little tip 😄 
+If you want to support me in further developing my open source projects, you can give me a little tip 😄
 <br/>
 Your financial support enables me to focus more on my projects. Thank you very much!
 <br/>
@@ -170,7 +170,7 @@ You can find all the examples, with their source code, here: [`./_examples`](./_
 <!-- examples:start -->
 ### barchart
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/barchart/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/barchart/animation.svg)
 
 <details>
 
@@ -179,7 +179,7 @@ You can find all the examples, with their source code, here: [`./_examples`](./_
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	bars := pterm.Bars{
@@ -207,7 +207,7 @@ func main() {
 
 ### bigtext
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/bigtext/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/bigtext/animation.svg)
 
 <details>
 
@@ -216,7 +216,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print a large text with the LetterStyle from the standard theme.
@@ -236,7 +236,7 @@ func main() {
 
 ### box
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/box/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/box/animation.svg)
 
 <details>
 
@@ -245,7 +245,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	pterm.Info.Println("This might not be rendered correctly on GitHub, but it will work in a real terminal.\nThis is because GitHub does not use a monospaced font by default for SVGs.")
@@ -268,7 +268,7 @@ func main() {
 
 ### bulletlist
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/bulletlist/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/bulletlist/animation.svg)
 
 <details>
 
@@ -277,7 +277,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print a list with different levels.
@@ -301,7 +301,7 @@ func main() {
 
 ### bulletlist-custom
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/bulletlist-custom/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/bulletlist-custom/animation.svg)
 
 <details>
 
@@ -311,7 +311,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 func main() {
@@ -329,7 +329,7 @@ func main() {
 
 ### center
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/center/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/center/animation.svg)
 
 <details>
 
@@ -338,7 +338,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	pterm.DefaultCenter.Println("This text is centered!\nIt centeres the whole block by default.\nIn that way you can do stuff like this:")
@@ -356,7 +356,7 @@ func main() {
 
 ### demo
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/demo/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/demo/animation.svg)
 
 <details>
 
@@ -371,7 +371,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 // Change this to time.Millisecond*200 to speed up the demo.
@@ -525,7 +525,7 @@ func randomInt(min, max int) int {
 
 ### disable-color
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/disable-color/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/disable-color/animation.svg)
 
 <details>
 
@@ -540,7 +540,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 // Change this to time.Millisecond*200 to speed up the demo.
@@ -694,7 +694,7 @@ func randomInt(min, max int) int {
 
 ### disable-output
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/disable-output/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/disable-output/animation.svg)
 
 <details>
 
@@ -703,7 +703,7 @@ func randomInt(min, max int) int {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	for i := 0; i < 15; i++ {
@@ -726,7 +726,7 @@ func main() {
 
 ### header
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/header/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/header/animation.svg)
 
 <details>
 
@@ -735,7 +735,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print a default header.
@@ -748,7 +748,7 @@ func main() {
 
 ### header-custom
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/header-custom/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/header-custom/animation.svg)
 
 <details>
 
@@ -757,10 +757,10 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
-	// All available options: https://pkg.go.dev/github.com/pterm/pterm#HeaderPrinter
+	// All available options: https://pkg.go.dev/github.com/avissian/pterm#HeaderPrinter
 
 	// Build on top of DefaultHeader
 	pterm.DefaultHeader. // Use DefaultHeader as base
@@ -788,7 +788,7 @@ func main() {
 
 ### override-default-printers
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/override-default-printers/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/override-default-printers/animation.svg)
 
 <details>
 
@@ -797,7 +797,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print default error.
@@ -819,7 +819,7 @@ func main() {
 
 ### panel
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/panel/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/panel/animation.svg)
 
 <details>
 
@@ -828,7 +828,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Declare panels in a two dimensional grid system.
@@ -847,7 +847,7 @@ func main() {
 
 ### paragraph
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/paragraph/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/paragraph/animation.svg)
 
 <details>
 
@@ -856,7 +856,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print long text with default paragraph printer.
@@ -878,7 +878,7 @@ func main() {
 
 ### paragraph-custom
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/paragraph-custom/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/paragraph-custom/animation.svg)
 
 <details>
 
@@ -887,7 +887,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print a paragraph with a custom maximal width.
@@ -909,7 +909,7 @@ func main() {
 
 ### prefix
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/prefix/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/prefix/animation.svg)
 
 <details>
 
@@ -918,7 +918,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Enable debug messages.
@@ -940,7 +940,7 @@ func main() {
 
 ### print-basic-text
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-basic-text/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-basic-text/animation.svg)
 
 <details>
 
@@ -949,7 +949,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// A BasicText printer is used to print text, without special formatting.
@@ -967,7 +967,7 @@ func main() {
 
 ### print-color-fade
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-color-fade/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-color-fade/animation.svg)
 
 <details>
 
@@ -977,7 +977,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 func main() {
@@ -1000,7 +1000,7 @@ func main() {
 
 ### print-color-fade-multiple
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-color-fade-multiple/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-color-fade-multiple/animation.svg)
 
 <details>
 
@@ -1012,7 +1012,7 @@ package main
 import (
 	"strings"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 func main() {
@@ -1047,7 +1047,7 @@ func main() {
 
 ### print-color-rgb
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-color-rgb/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-color-rgb/animation.svg)
 
 <details>
 
@@ -1056,7 +1056,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print strings with a custom RGB color.
@@ -1072,7 +1072,7 @@ func main() {
 
 ### print-with-color
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-with-color/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-with-color/animation.svg)
 
 <details>
 
@@ -1081,7 +1081,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print different colored words.
@@ -1113,7 +1113,7 @@ func main() {
 
 ### progressbar
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/progressbar/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/progressbar/animation.svg)
 
 <details>
 
@@ -1126,7 +1126,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 // Slice of strings with placeholder text.
@@ -1151,7 +1151,7 @@ func main() {
 
 ### section
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/section/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/section/animation.svg)
 
 <details>
 
@@ -1160,7 +1160,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print a section with level one.
@@ -1180,7 +1180,7 @@ func main() {
 
 ### spinner
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/spinner/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/spinner/animation.svg)
 
 <details>
 
@@ -1192,7 +1192,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 func main() {
@@ -1227,7 +1227,7 @@ func main() {
 
 ### style
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/style/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/style/animation.svg)
 
 <details>
 
@@ -1236,7 +1236,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Create styles as new variables
@@ -1254,7 +1254,7 @@ func main() {
 
 ### table
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/table/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/table/animation.svg)
 
 <details>
 
@@ -1263,7 +1263,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Create a fork of the default table, fill it with data and print it.
@@ -1282,7 +1282,7 @@ func main() {
 
 ### theme
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/theme/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/theme/animation.svg)
 
 <details>
 
@@ -1292,7 +1292,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 	"reflect"
 	"time"
 )
@@ -1326,7 +1326,7 @@ func main() {
 
 ### tree
 
-![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/tree/animation.svg)
+![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/tree/animation.svg)
 
 <details>
 
@@ -1336,7 +1336,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 func main() {
@@ -1380,7 +1380,7 @@ func main() {
 
 <!-- examples:end -->
 
-  
+
 ---
 
 > GitHub [@pterm](https://github.com/pterm) &nbsp;&middot;&nbsp;

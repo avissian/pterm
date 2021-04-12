@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 // Slice of strings with placeholder text.

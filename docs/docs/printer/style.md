@@ -1,13 +1,13 @@
 # StylePrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      style Style StylePrinter DefaultStyle
 -->
 
-![StylePrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/style/animation.svg)
+![StylePrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/style/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/style/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/style/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -22,14 +22,14 @@ pterm.NewStyle(pterm.FgLightCyan, pterm.BgGray, pterm.Bold).Println("Hello, Worl
 
 |Function|Description|
 |--------|-----------|
-|[NewStyle](https://pkg.go.dev/github.com/pterm/pterm#Style.NewStyle)|NewStyle returns a new Style. Accepts multiple colors.|
-|[Add](https://pkg.go.dev/github.com/pterm/pterm#Style.Add)|Add styles to the current Style.|
-|[Code](https://pkg.go.dev/github.com/pterm/pterm#Style.Code)|Code convert to code string. returns like "32;45;3".|
-|[String](https://pkg.go.dev/github.com/pterm/pterm#Style.String)|String convert to code string. returns like "32;45;3".|
+|[NewStyle](https://pkg.go.dev/github.com/avissian/pterm#Style.NewStyle)|NewStyle returns a new Style. Accepts multiple colors.|
+|[Add](https://pkg.go.dev/github.com/avissian/pterm#Style.Add)|Add styles to the current Style.|
+|[Code](https://pkg.go.dev/github.com/avissian/pterm#Style.Code)|Code convert to code string. returns like "32;45;3".|
+|[String](https://pkg.go.dev/github.com/avissian/pterm#Style.String)|String convert to code string. returns like "32;45;3".|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

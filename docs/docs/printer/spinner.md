@@ -1,13 +1,13 @@
 # SpinnerPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      spinner Spinner SpinnerPrinter DefaultSpinner
 -->
 
-![SpinnerPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/spinner/animation.svg)
+![SpinnerPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/spinner/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/spinner/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/spinner/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -22,10 +22,10 @@ pterm.DefaultSpinner.Start()
 
 |Function|Description|
 |--------|-----------|
-|[Fail(message ...interface{})](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.Fail)|Fail displays the fail printer. If no message is given, the text of the SpinnerPrinter will be reused as the default message.|
-|[Success(message ...interface{})](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.Success)|Success displays the success printer. If no message is given, the text of the SpinnerPrinter will be reused as the default message.|
-|[UpdateText(text string)](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.UpdateText)|UpdateText updates the message of the active SpinnerPrinter. Can be used live.|
-|[Warning(message ...interface{})](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.UpdateText)|Warning displays the warning printer. If no message is given, the text of the SpinnerPrinter will be reused as the default message.|
+|[Fail(message ...interface{})](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.Fail)|Fail displays the fail printer. If no message is given, the text of the SpinnerPrinter will be reused as the default message.|
+|[Success(message ...interface{})](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.Success)|Success displays the success printer. If no message is given, the text of the SpinnerPrinter will be reused as the default message.|
+|[UpdateText(text string)](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.UpdateText)|UpdateText updates the message of the active SpinnerPrinter. Can be used live.|
+|[Warning(message ...interface{})](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.UpdateText)|Warning displays the warning printer. If no message is given, the text of the SpinnerPrinter will be reused as the default message.|
 
 ### Options
 
@@ -40,17 +40,17 @@ pterm.DefaultSpinner.Start()
 
 |Option|Type|
 |------|----|
-|[Delay](https://pkg.go.dev/github.com/pterm/pterm#SpinnerPrinter.WithDelay)|time.Duration|
-|[MessageStyle](https://pkg.go.dev/github.com/pterm/pterm#SpinnerPrinter.WithMessageStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[RemoveWhenDone](https://pkg.go.dev/github.com/pterm/pterm#SpinnerPrinter.WithRemoveWhenDone)|...bool|
-|[Sequence](https://pkg.go.dev/github.com/pterm/pterm#SpinnerPrinter.WithSequence)|...string|
-|[Style](https://pkg.go.dev/github.com/pterm/pterm#SpinnerPrinter.WithStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[Text](https://pkg.go.dev/github.com/pterm/pterm#SpinnerPrinter.WithText)|string|
+|[Delay](https://pkg.go.dev/github.com/avissian/pterm#SpinnerPrinter.WithDelay)|time.Duration|
+|[MessageStyle](https://pkg.go.dev/github.com/avissian/pterm#SpinnerPrinter.WithMessageStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[RemoveWhenDone](https://pkg.go.dev/github.com/avissian/pterm#SpinnerPrinter.WithRemoveWhenDone)|...bool|
+|[Sequence](https://pkg.go.dev/github.com/avissian/pterm#SpinnerPrinter.WithSequence)|...string|
+|[Style](https://pkg.go.dev/github.com/avissian/pterm#SpinnerPrinter.WithStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[Text](https://pkg.go.dev/github.com/avissian/pterm#SpinnerPrinter.WithText)|string|
 
 
 ### Output functions
 
-> This printer implements the interface [`LivePrinter`](https://github.com/pterm/pterm/blob/master/interface_live_printer.go)
+> This printer implements the interface [`LivePrinter`](https://github.com/avissian/pterm/blob/master/interface_live_printer.go)
 
 |Function|Description|
 |------|---------|

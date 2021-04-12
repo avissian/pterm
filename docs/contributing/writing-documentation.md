@@ -21,7 +21,7 @@ func HelloWorld(s string) string {
 > [!NOTE]
 > The documentation of the official PTerm website is written in [Markdown](https://en.wikipedia.org/wiki/Markdown).
 
-To edit the official documentation of PTerm, you can submit a Pull Request, which changes the markdown files in [`./docs`](https://github.com/pterm/pterm/tree/master/docs).
+To edit the official documentation of PTerm, you can submit a Pull Request, which changes the markdown files in [`./docs`](https://github.com/avissian/pterm/tree/master/docs).
 
 ## Special Formatting
 

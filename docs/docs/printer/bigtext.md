@@ -1,13 +1,13 @@
 # BigTextPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
         bigtext BigText BigTextPrinter DefaultBigText
 -->
 
-![BigTextPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/bigtext/animation.svg)
+![BigTextPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/bigtext/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/bigtext/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/bigtext/main.go" target="_blank">(Show source of demo)</a></p>
 
 ## Usage
 
@@ -30,14 +30,14 @@ pterm.DefaultBigText.WithLetters(pterm.NewLettersFromString("Hello")).Render()
 
 |Option|Type|
 |------|----|
-|[Letters](https://pkg.go.dev/github.com/pterm/pterm#BigTextPrinter.WithLetters)|[Letters](https://pkg.go.dev/github.com/pterm/pterm#Letters)|
-|[BigCharacters](https://pkg.go.dev/github.com/pterm/pterm#BigTextPrinter.WithBigCharacters)|map[string]string|
+|[Letters](https://pkg.go.dev/github.com/avissian/pterm#BigTextPrinter.WithLetters)|[Letters](https://pkg.go.dev/github.com/avissian/pterm#Letters)|
+|[BigCharacters](https://pkg.go.dev/github.com/avissian/pterm#BigTextPrinter.WithBigCharacters)|map[string]string|
 
 ### Output functions
 <!-- Remove comment of the correct interface -->
 
 <!--
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|
@@ -49,7 +49,7 @@ pterm.DefaultBigText.WithLetters(pterm.NewLettersFromString("Hello")).Render()
 |Printf(format string, a ...interface{})|Prints to the terminal, formatted according to a format specifier|
 -->
 
-> This printer implements the interface [`RenderablePrinter`](https://github.com/pterm/pterm/blob/master/interface_renderable_printer.go)
+> This printer implements the interface [`RenderablePrinter`](https://github.com/avissian/pterm/blob/master/interface_renderable_printer.go)
 
 |Function|Description|
 |------|---------|
@@ -57,7 +57,7 @@ pterm.DefaultBigText.WithLetters(pterm.NewLettersFromString("Hello")).Render()
 |Srender()|Returns a string|
 
 <!--
-> This printer implements the interface [`LivePrinter`](https://github.com/pterm/pterm/blob/master/interface_live_printer.go)
+> This printer implements the interface [`LivePrinter`](https://github.com/avissian/pterm/blob/master/interface_live_printer.go)
 
 |Function|Description|
 |------|---------|

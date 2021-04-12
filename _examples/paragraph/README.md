@@ -5,7 +5,7 @@
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print long text with default paragraph printer.

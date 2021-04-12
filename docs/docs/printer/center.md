@@ -1,13 +1,13 @@
 # CenterPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
         center Center CenterPrinter DefaultCenter
 -->
 
-![CenterPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/center/animation.svg)
+![CenterPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/center/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/center/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/center/main.go" target="_blank">(Show source of demo)</a></p>
 
 ## Usage
 
@@ -30,11 +30,11 @@ pterm.DefaultCenter.Println("Hello,\nWorld!")
 
 |Option|Type|
 |------|----|
-|[CenterEachLineSeparately](https://pkg.go.dev/github.com/pterm/pterm#CenterPrinter.WithCenterEachLineSeparately)|...bool|
+|[CenterEachLineSeparately](https://pkg.go.dev/github.com/avissian/pterm#CenterPrinter.WithCenterEachLineSeparately)|...bool|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

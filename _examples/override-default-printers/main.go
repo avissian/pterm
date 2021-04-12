@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Print default error.

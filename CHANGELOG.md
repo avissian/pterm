@@ -25,14 +25,14 @@
 <a name="v0.12.13"></a>
 ## [v0.12.13] - 2021-04-10
 ### Bug Fixes
-- **bigtext:** fix height of some characters [#180](https://github.com/pterm/pterm/issues/180)
+- **bigtext:** fix height of some characters [#180](https://github.com/avissian/pterm/issues/180)
 - **color:** make color implement `TextPrinter`
 
 ### Chore
 - **deps:** bump github.com/gookit/color from 1.4.0 to 1.4.1
 - **deps:** bump github.com/gookit/color from 1.3.8 to 1.4.0
 - **deps:** bump github.com/mattn/go-runewidth from 0.0.10 to 0.0.12
-- **gitpod:** add gitpod support ([#172](https://github.com/pterm/pterm/issues/172))
+- **gitpod:** add gitpod support ([#172](https://github.com/avissian/pterm/issues/172))
 
 ### Code Refactoring
 - **examples:** center the intro of `demo`
@@ -170,7 +170,7 @@
 <a name="v0.12.6"></a>
 ## [v0.12.6] - 2020-11-17
 ### Bug Fixes
-- disabling output works as expected now ([#149](https://github.com/pterm/pterm/issues/149))
+- disabling output works as expected now ([#149](https://github.com/avissian/pterm/issues/149))
 
 ### Documentation Changes
 
@@ -194,7 +194,7 @@
 - try to repeat unittest count
 
 ### Documentation Changes
-- **contributing:** change examples to return error ([#145](https://github.com/pterm/pterm/issues/145))
+- **contributing:** change examples to return error ([#145](https://github.com/avissian/pterm/issues/145))
 
 ### Revert
 - "ci: try to repeat unittest count"
@@ -336,7 +336,7 @@
 - **panel:** add invalid check for `padding` in `panel`
 
 ### Code Refactoring
-- make all printer names end with `Printer` ([#134](https://github.com/pterm/pterm/issues/134))
+- make all printer names end with `Printer` ([#134](https://github.com/avissian/pterm/issues/134))
 - **bulletlist:** remove `DefaultBulletListItem`
 - **bulletlist:** `BulletListItem` remove `Render` and `Srender`
 - **bulletlist:** `BulletListItem` is no renderable anymore
@@ -451,18 +451,18 @@ make centerprinter func `WithCenterEachLineSeparately` return a pointer of cente
 
 ### Code Refactoring
 - ignore errors where no errors can occur
-- **theme:** change `ListTextStyle` to `BulletListTextStyle` ([#104](https://github.com/pterm/pterm/issues/104))
-- **theme:** change `ProgressbarBarStyle` to `FgCyan` ([#106](https://github.com/pterm/pterm/issues/106))
-- **theme:** change white to default color in `Theme` ([#103](https://github.com/pterm/pterm/issues/103))
+- **theme:** change `ListTextStyle` to `BulletListTextStyle` ([#104](https://github.com/avissian/pterm/issues/104))
+- **theme:** change `ProgressbarBarStyle` to `FgCyan` ([#106](https://github.com/avissian/pterm/issues/106))
+- **theme:** change white to default color in `Theme` ([#103](https://github.com/avissian/pterm/issues/103))
 
 ### Documentation Changes
-- **examples:** update `disable-color` example ([#107](https://github.com/pterm/pterm/issues/107))
-- **examples:** change color of `BigLetter` P of PTerm to `FgLightCyan` ([#105](https://github.com/pterm/pterm/issues/105))
+- **examples:** update `disable-color` example ([#107](https://github.com/avissian/pterm/issues/107))
+- **examples:** change color of `BigLetter` P of PTerm to `FgLightCyan` ([#105](https://github.com/avissian/pterm/issues/105))
 - **examples:** change length of tree example in demo
 
 ### Features
 - make printers return errors
-- add `DisableOutput()` and `EnableOutput()` ([#108](https://github.com/pterm/pterm/issues/108))
+- add `DisableOutput()` and `EnableOutput()` ([#108](https://github.com/avissian/pterm/issues/108))
 
 ### BREAKING CHANGE
 
@@ -550,10 +550,10 @@ The global variable `DisableOutput` was renamed to `Output`.
 - **examples:** update `BigTextPrinter` example
 - **examples:** update `Theme` example
 - **examples:** update `BulletListPrinter` example
-- **examples:** change color fade multiple example ([#85](https://github.com/pterm/pterm/issues/85))
+- **examples:** change color fade multiple example ([#85](https://github.com/avissian/pterm/issues/85))
 - **examples:** update `BulletListPrinter` custom example
 - **examples:** add more delay between table and end
-- **examples:** redo demo ([#90](https://github.com/pterm/pterm/issues/90))
+- **examples:** redo demo ([#90](https://github.com/avissian/pterm/issues/90))
 - **examples:** update `Table` example
 - **examples:** update `Spinner` example
 - **examples:** update `DefaultSection` example
@@ -568,7 +568,7 @@ The global variable `DisableOutput` was renamed to `Output`.
 - **examples:** update `override-default-printers` example
 - **examples:** update `ParagraphPrinter` example
 - **godoc:** add package description
-- **readme:** add features list to README ([#84](https://github.com/pterm/pterm/issues/84))
+- **readme:** add features list to README ([#84](https://github.com/avissian/pterm/issues/84))
 - **readme:** add link to examples location
 - **readme:** shrink features list
 - **readme:** remove one space between demo and header
@@ -623,11 +623,11 @@ Changed `NewList` to `NewBulletList`.
 
 ### Code Refactoring
 - make `BigTextPrinter` release ready
-- change `LineCharacter` to `BarCharacter` ([#70](https://github.com/pterm/pterm/issues/70))
+- change `LineCharacter` to `BarCharacter` ([#70](https://github.com/avissian/pterm/issues/70))
 
 ### Documentation Changes
 - **contributing:** update contributing guides
-- **examples:** color fade demo, fade from cyan to magenta ([#68](https://github.com/pterm/pterm/issues/68))
+- **examples:** color fade demo, fade from cyan to magenta ([#68](https://github.com/avissian/pterm/issues/68))
 - **examples:** refactor demo
 - **examples:** add header to demo
 - **readme:** add test coverage to readme
@@ -637,9 +637,9 @@ Changed `NewList` to `NewBulletList`.
 - **readme:** add Q&A to readme
 
 ### Features
-- add `BigTextPrinter` ([#75](https://github.com/pterm/pterm/issues/75))
+- add `BigTextPrinter` ([#75](https://github.com/avissian/pterm/issues/75))
 - use level of section printer
-- add `BulletListPrinter` ([#67](https://github.com/pterm/pterm/issues/67))
+- add `BulletListPrinter` ([#67](https://github.com/avissian/pterm/issues/67))
 
 ### Test
 - test that `%s` won't fail to print
@@ -659,7 +659,7 @@ Changed `LineCharacter` to `BarCharacter`.
 - section printer Style to pointer
 
 ### Ci
-- better error handling in CI System ([#61](https://github.com/pterm/pterm/issues/61))
+- better error handling in CI System ([#61](https://github.com/avissian/pterm/issues/61))
 - disable paramTypeCombine
 - dont check for paramTypeCombine
 - put unit test count into readme
@@ -736,7 +736,7 @@ Changed `LineCharacter` to `BarCharacter`.
 - change TextPrinter interface to pointer output
 
 ### Documentation Changes
-- add to do list to PR template ([#52](https://github.com/pterm/pterm/issues/52))
+- add to do list to PR template ([#52](https://github.com/avissian/pterm/issues/52))
 - add documentation to theme
 
 ### Features
@@ -791,15 +791,15 @@ TextPrinter now requires to return a pointer.
 - **readme:** replace emoji strings with actual emojis
 
 ### Features
-- add ability to disable output ([#44](https://github.com/pterm/pterm/issues/44))
+- add ability to disable output ([#44](https://github.com/avissian/pterm/issues/44))
 - add `Srender` to `RenderPrinter` interface
-- add csv table support ([#42](https://github.com/pterm/pterm/issues/42))
-- add HEX to RGB converter in `RGB` ([#41](https://github.com/pterm/pterm/issues/41))
+- add csv table support ([#42](https://github.com/avissian/pterm/issues/42))
+- add HEX to RGB converter in `RGB` ([#41](https://github.com/avissian/pterm/issues/41))
 - add theme to generated animations
-- add color fade example ([#38](https://github.com/pterm/pterm/issues/38))
+- add color fade example ([#38](https://github.com/avissian/pterm/issues/38))
 - implement `TextPrinter` into `RGB`
-- implement color fade to `Progressbar` ([#37](https://github.com/pterm/pterm/issues/37))
-- add color fade function and `RBG` ([#34](https://github.com/pterm/pterm/issues/34))
+- implement color fade to `Progressbar` ([#37](https://github.com/avissian/pterm/issues/37))
+- add color fade function and `RBG` ([#34](https://github.com/avissian/pterm/issues/34))
 - change `Section` style
 
 
@@ -810,7 +810,7 @@ TextPrinter now requires to return a pointer.
 - rename `GenericPrinter` to `TextPrinter`
 
 ### Documentation Changes
-- **demo:** add `SectionPrinter` to demo ([#25](https://github.com/pterm/pterm/issues/25))
+- **demo:** add `SectionPrinter` to demo ([#25](https://github.com/avissian/pterm/issues/25))
 
 ### Features
 - implement `LivePrinter` in `Spinner`
@@ -818,8 +818,8 @@ TextPrinter now requires to return a pointer.
 - add `RenderPrinter` interface
 - implement `LivePrinter` in `Progressbar`
 - add `LivePrinter` interface
-- add `TablePrinter` ([#27](https://github.com/pterm/pterm/issues/27))
-- add `ParagraphPrinter` ([#24](https://github.com/pterm/pterm/issues/24))
+- add `TablePrinter` ([#27](https://github.com/avissian/pterm/issues/27))
+- add `ParagraphPrinter` ([#24](https://github.com/avissian/pterm/issues/24))
 
 ### Test
 - add `Print` equals `Sprint` tests for `GenericPrinter`
@@ -839,7 +839,7 @@ The `GenericPrinter` is now called `TextPrinter`.
 <a name="v0.4.0"></a>
 ## [v0.4.0] - 2020-10-07
 ### Chore
-- **deps:** bump github.com/stretchr/testify from 1.3.0 to 1.6.1 ([#22](https://github.com/pterm/pterm/issues/22))
+- **deps:** bump github.com/stretchr/testify from 1.3.0 to 1.6.1 ([#22](https://github.com/avissian/pterm/issues/22))
 - **intellij:** add config for commit body styling
 
 ### Code Refactoring
@@ -982,9 +982,9 @@ rename `Header` to `DefaultHeader`
 - make progressbar configurable
 - add percentage helper
 - add `RemoveColors`
-- add `Progressbar` ([#5](https://github.com/pterm/pterm/issues/5))
+- add `Progressbar` ([#5](https://github.com/avissian/pterm/issues/5))
 - add `Progressbar`
-- add fatal to `PrefixPrinter` ([#4](https://github.com/pterm/pterm/issues/4))
+- add fatal to `PrefixPrinter` ([#4](https://github.com/avissian/pterm/issues/4))
 - **progressbar:** fade percentage color according to value
 
 ### Style
@@ -1124,44 +1124,44 @@ removed `Header` and put it's content directly into `HeaderPrinter`
 - initial commit
 
 
-[Unreleased]: https://github.com/pterm/pterm/compare/v0.12.13...HEAD
-[v0.12.13]: https://github.com/pterm/pterm/compare/v0.12.12...v0.12.13
-[v0.12.12]: https://github.com/pterm/pterm/compare/v0.12.11...v0.12.12
-[v0.12.11]: https://github.com/pterm/pterm/compare/v0.12.10...v0.12.11
-[v0.12.10]: https://github.com/pterm/pterm/compare/v0.12.9...v0.12.10
-[v0.12.9]: https://github.com/pterm/pterm/compare/v0.12.8...v0.12.9
-[v0.12.8]: https://github.com/pterm/pterm/compare/v0.12.7...v0.12.8
-[v0.12.7]: https://github.com/pterm/pterm/compare/v0.12.6...v0.12.7
-[v0.12.6]: https://github.com/pterm/pterm/compare/v0.12.5...v0.12.6
-[v0.12.5]: https://github.com/pterm/pterm/compare/v0.12.4...v0.12.5
-[v0.12.4]: https://github.com/pterm/pterm/compare/v0.12.3...v0.12.4
-[v0.12.3]: https://github.com/pterm/pterm/compare/v0.12.2...v0.12.3
-[v0.12.2]: https://github.com/pterm/pterm/compare/v0.12.1...v0.12.2
-[v0.12.1]: https://github.com/pterm/pterm/compare/v0.12.0...v0.12.1
-[v0.12.0]: https://github.com/pterm/pterm/compare/v0.11.0...v0.12.0
-[v0.11.0]: https://github.com/pterm/pterm/compare/v0.10.1...v0.11.0
-[v0.10.1]: https://github.com/pterm/pterm/compare/v0.10.0...v0.10.1
-[v0.10.0]: https://github.com/pterm/pterm/compare/v0.9.3...v0.10.0
-[v0.9.3]: https://github.com/pterm/pterm/compare/v0.9.2...v0.9.3
-[v0.9.2]: https://github.com/pterm/pterm/compare/v0.9.1...v0.9.2
-[v0.9.1]: https://github.com/pterm/pterm/compare/v0.9.0...v0.9.1
-[v0.9.0]: https://github.com/pterm/pterm/compare/v0.8.1...v0.9.0
-[v0.8.1]: https://github.com/pterm/pterm/compare/v0.8.0...v0.8.1
-[v0.8.0]: https://github.com/pterm/pterm/compare/v0.7.0...v0.8.0
-[v0.7.0]: https://github.com/pterm/pterm/compare/v0.6.1...v0.7.0
-[v0.6.1]: https://github.com/pterm/pterm/compare/v0.6.0...v0.6.1
-[v0.6.0]: https://github.com/pterm/pterm/compare/v0.5.1...v0.6.0
-[v0.5.1]: https://github.com/pterm/pterm/compare/v0.5.0...v0.5.1
-[v0.5.0]: https://github.com/pterm/pterm/compare/v0.4.1...v0.5.0
-[v0.4.1]: https://github.com/pterm/pterm/compare/v0.4.0...v0.4.1
-[v0.4.0]: https://github.com/pterm/pterm/compare/v0.3.2...v0.4.0
-[v0.3.2]: https://github.com/pterm/pterm/compare/v0.3.1...v0.3.2
-[v0.3.1]: https://github.com/pterm/pterm/compare/v0.3.0...v0.3.1
-[v0.3.0]: https://github.com/pterm/pterm/compare/v0.2.4...v0.3.0
-[v0.2.4]: https://github.com/pterm/pterm/compare/v0.2.3...v0.2.4
-[v0.2.3]: https://github.com/pterm/pterm/compare/v0.2.2...v0.2.3
-[v0.2.2]: https://github.com/pterm/pterm/compare/v0.2.1...v0.2.2
-[v0.2.1]: https://github.com/pterm/pterm/compare/v0.2.0...v0.2.1
-[v0.2.0]: https://github.com/pterm/pterm/compare/v0.1.0...v0.2.0
-[v0.1.0]: https://github.com/pterm/pterm/compare/v0.0.1...v0.1.0
-[v0.0.1]: https://github.com/pterm/pterm/compare/v0.0.0...v0.0.1
+[Unreleased]: https://github.com/avissian/pterm/compare/v0.12.13...HEAD
+[v0.12.13]: https://github.com/avissian/pterm/compare/v0.12.12...v0.12.13
+[v0.12.12]: https://github.com/avissian/pterm/compare/v0.12.11...v0.12.12
+[v0.12.11]: https://github.com/avissian/pterm/compare/v0.12.10...v0.12.11
+[v0.12.10]: https://github.com/avissian/pterm/compare/v0.12.9...v0.12.10
+[v0.12.9]: https://github.com/avissian/pterm/compare/v0.12.8...v0.12.9
+[v0.12.8]: https://github.com/avissian/pterm/compare/v0.12.7...v0.12.8
+[v0.12.7]: https://github.com/avissian/pterm/compare/v0.12.6...v0.12.7
+[v0.12.6]: https://github.com/avissian/pterm/compare/v0.12.5...v0.12.6
+[v0.12.5]: https://github.com/avissian/pterm/compare/v0.12.4...v0.12.5
+[v0.12.4]: https://github.com/avissian/pterm/compare/v0.12.3...v0.12.4
+[v0.12.3]: https://github.com/avissian/pterm/compare/v0.12.2...v0.12.3
+[v0.12.2]: https://github.com/avissian/pterm/compare/v0.12.1...v0.12.2
+[v0.12.1]: https://github.com/avissian/pterm/compare/v0.12.0...v0.12.1
+[v0.12.0]: https://github.com/avissian/pterm/compare/v0.11.0...v0.12.0
+[v0.11.0]: https://github.com/avissian/pterm/compare/v0.10.1...v0.11.0
+[v0.10.1]: https://github.com/avissian/pterm/compare/v0.10.0...v0.10.1
+[v0.10.0]: https://github.com/avissian/pterm/compare/v0.9.3...v0.10.0
+[v0.9.3]: https://github.com/avissian/pterm/compare/v0.9.2...v0.9.3
+[v0.9.2]: https://github.com/avissian/pterm/compare/v0.9.1...v0.9.2
+[v0.9.1]: https://github.com/avissian/pterm/compare/v0.9.0...v0.9.1
+[v0.9.0]: https://github.com/avissian/pterm/compare/v0.8.1...v0.9.0
+[v0.8.1]: https://github.com/avissian/pterm/compare/v0.8.0...v0.8.1
+[v0.8.0]: https://github.com/avissian/pterm/compare/v0.7.0...v0.8.0
+[v0.7.0]: https://github.com/avissian/pterm/compare/v0.6.1...v0.7.0
+[v0.6.1]: https://github.com/avissian/pterm/compare/v0.6.0...v0.6.1
+[v0.6.0]: https://github.com/avissian/pterm/compare/v0.5.1...v0.6.0
+[v0.5.1]: https://github.com/avissian/pterm/compare/v0.5.0...v0.5.1
+[v0.5.0]: https://github.com/avissian/pterm/compare/v0.4.1...v0.5.0
+[v0.4.1]: https://github.com/avissian/pterm/compare/v0.4.0...v0.4.1
+[v0.4.0]: https://github.com/avissian/pterm/compare/v0.3.2...v0.4.0
+[v0.3.2]: https://github.com/avissian/pterm/compare/v0.3.1...v0.3.2
+[v0.3.1]: https://github.com/avissian/pterm/compare/v0.3.0...v0.3.1
+[v0.3.0]: https://github.com/avissian/pterm/compare/v0.2.4...v0.3.0
+[v0.2.4]: https://github.com/avissian/pterm/compare/v0.2.3...v0.2.4
+[v0.2.3]: https://github.com/avissian/pterm/compare/v0.2.2...v0.2.3
+[v0.2.2]: https://github.com/avissian/pterm/compare/v0.2.1...v0.2.2
+[v0.2.1]: https://github.com/avissian/pterm/compare/v0.2.0...v0.2.1
+[v0.2.0]: https://github.com/avissian/pterm/compare/v0.1.0...v0.2.0
+[v0.1.0]: https://github.com/avissian/pterm/compare/v0.0.1...v0.1.0
+[v0.0.1]: https://github.com/avissian/pterm/compare/v0.0.0...v0.0.1

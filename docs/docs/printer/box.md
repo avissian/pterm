@@ -1,13 +1,13 @@
 # BoxPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      box Box BoxPrinter DefaultBox
 -->
 
-![BoxPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/box/animation.svg)
+![BoxPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/box/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/box/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/box/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -31,23 +31,23 @@ pterm.DefaultBox.Println("test")
 
 |Option|Type|
 |------|----|
-|[BottomLeftCornerString](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithBottomLeftCornerString)|string|
-|[BottomPadding](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithBottomPadding)|int|
-|[BottomRightCornerString](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithBottomRightCornerString)|string|
-|[BoxStyle](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithBoxStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[HorizontalString](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithHorizontalString)|string|
-|[LeftPadding](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithLeftPadding)|int|
-|[RightPadding](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithRightPadding)|int|
-|[Text](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithText)|string|
-|[TextStyle](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[TopLeftCornerString](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithTopLeftCornerString)|string|
-|[TopPadding](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithTopPadding)|int|
-|[TopRightCornerString](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithTopRightCornerString)|string|
-|[VerticalString](https://pkg.go.dev/github.com/pterm/pterm#BoxPrinter.WithVerticalString)|string|
+|[BottomLeftCornerString](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithBottomLeftCornerString)|string|
+|[BottomPadding](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithBottomPadding)|int|
+|[BottomRightCornerString](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithBottomRightCornerString)|string|
+|[BoxStyle](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithBoxStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[HorizontalString](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithHorizontalString)|string|
+|[LeftPadding](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithLeftPadding)|int|
+|[RightPadding](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithRightPadding)|int|
+|[Text](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithText)|string|
+|[TextStyle](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[TopLeftCornerString](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithTopLeftCornerString)|string|
+|[TopPadding](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithTopPadding)|int|
+|[TopRightCornerString](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithTopRightCornerString)|string|
+|[VerticalString](https://pkg.go.dev/github.com/avissian/pterm#BoxPrinter.WithVerticalString)|string|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

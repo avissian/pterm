@@ -1,13 +1,13 @@
 # BasicTextPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      basictext BasicText BasicTextPrinter DefaultBasicText
 -->
 
-![BasicTextPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/basictext/animation.svg)
+![BasicTextPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/basictext/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/basictext/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/basictext/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -31,11 +31,11 @@ pterm.DefaultBasicText.Println("Hello, World!")
 
 |Option|Type|
 |------|----|
-|[Style](https://pkg.go.dev/github.com/pterm/pterm#BasicTextPrinter.WithStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
+|[Style](https://pkg.go.dev/github.com/avissian/pterm#BasicTextPrinter.WithStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

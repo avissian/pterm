@@ -1,13 +1,13 @@
 # BulletListPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
         bulletlist BulletList BulletListPrinter DefaultBulletList
 -->
 
-![BulletListPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/bulletlist/animation.svg)
+![BulletListPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/bulletlist/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/bulletlist/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/bulletlist/main.go" target="_blank">(Show source of demo)</a></p>
 
 ## Usage
 
@@ -21,8 +21,8 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{{Level: 0, Text: "Level
 
 |Function|Description|
 |--------|-----------|
-|[NewBulletListFromString(s string, padding string)](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.NewBulletListFromString)|NewBulletListFromString returns a BulletListPrinter with Text using the NewTreeListItemFromString method, splitting after return (\n).|
-|[NewBulletListFromStrings(s []string, padding string)](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.NewBulletListFromStrings)|NewBulletListFromStrings returns a BulletListPrinter with Text using the NewTreeListItemFromString method.|
+|[NewBulletListFromString(s string, padding string)](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.NewBulletListFromString)|NewBulletListFromString returns a BulletListPrinter with Text using the NewTreeListItemFromString method, splitting after return (\n).|
+|[NewBulletListFromStrings(s []string, padding string)](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.NewBulletListFromStrings)|NewBulletListFromStrings returns a BulletListPrinter with Text using the NewTreeListItemFromString method.|
 
 ### Options
 
@@ -37,16 +37,16 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{{Level: 0, Text: "Level
 
 |Option|Type|
 |------|----|
-|[Items](https://pkg.go.dev/github.com/pterm/pterm#BulletListPrinter.WithItems)|[[]BulletListItem](https://pkg.go.dev/github.com/pterm/pterm#BulletListItem)|
-|[TextStyle](https://pkg.go.dev/github.com/pterm/pterm#BulletListPrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[Bullet](https://pkg.go.dev/github.com/pterm/pterm#BulletListPrinter.WithBullet)|string|
-|[BulletStyle](https://pkg.go.dev/github.com/pterm/pterm#BulletListPrinter.WithBulletStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
+|[Items](https://pkg.go.dev/github.com/avissian/pterm#BulletListPrinter.WithItems)|[[]BulletListItem](https://pkg.go.dev/github.com/avissian/pterm#BulletListItem)|
+|[TextStyle](https://pkg.go.dev/github.com/avissian/pterm#BulletListPrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[Bullet](https://pkg.go.dev/github.com/avissian/pterm#BulletListPrinter.WithBullet)|string|
+|[BulletStyle](https://pkg.go.dev/github.com/avissian/pterm#BulletListPrinter.WithBulletStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
 
 ### Output functions
 <!-- Remove comment of the correct interface -->
 
 <!--
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|
@@ -58,7 +58,7 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{{Level: 0, Text: "Level
 |Printf(format string, a ...interface{})|Prints to the terminal, formatted according to a format specifier|
 -->
 
-> This printer implements the interface [`RenderablePrinter`](https://github.com/pterm/pterm/blob/master/interface_renderable_printer.go)
+> This printer implements the interface [`RenderablePrinter`](https://github.com/avissian/pterm/blob/master/interface_renderable_printer.go)
 
 |Function|Description|
 |------|---------|
@@ -66,7 +66,7 @@ pterm.DefaultBulletList.WithItems([]pterm.BulletListItem{{Level: 0, Text: "Level
 |Srender()|Returns a string|
 
 <!--
-> This printer implements the interface [`LivePrinter`](https://github.com/pterm/pterm/blob/master/interface_live_printer.go)
+> This printer implements the interface [`LivePrinter`](https://github.com/avissian/pterm/blob/master/interface_live_printer.go)
 
 |Function|Description|
 |------|---------|

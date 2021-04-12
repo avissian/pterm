@@ -5,7 +5,7 @@
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	pterm.Info.Println("This might not be rendered correctly on GitHub, but it will work in a real terminal.\nThis is because GitHub does not use a monospaced font by default for SVGs.")

@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/avissian/pterm/internal"
 )
 
 var (

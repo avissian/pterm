@@ -1,8 +1,8 @@
 package pterm
 
 import (
+	"github.com/avissian/pterm/internal"
 	"github.com/mattn/go-runewidth"
-	"github.com/pterm/pterm/internal"
 	"strings"
 )
 

@@ -8,7 +8,7 @@ package main
 import (
 	"strings"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 func main() {

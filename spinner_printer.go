@@ -3,7 +3,7 @@ package pterm
 import (
 	"time"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/avissian/pterm/internal"
 )
 
 // DefaultSpinner is the default SpinnerPrinter.

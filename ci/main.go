@@ -33,7 +33,7 @@ func main() {
 		}
 
 		readmeExamples += "### " + f.Name() + "\n\n"
-		readmeExamples += "![Animation](https://raw.githubusercontent.com/pterm/pterm/master/_examples/" + f.Name() + "/animation.svg)\n\n"
+		readmeExamples += "![Animation](https://raw.githubusercontent.com/avissian/pterm/master/_examples/" + f.Name() + "/animation.svg)\n\n"
 		readmeExamples += "<details>\n\n<summary>SHOW SOURCE</summary>\n\n"
 		readmeExamples += "```go\n"
 		readmeExamples += string(exampleCode) + "\n"

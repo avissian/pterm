@@ -1,13 +1,13 @@
 # ColorPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      color Color ColorPrinter DefaultColor
 -->
 
-![ColorPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-with-color/animation.svg)
+![ColorPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-with-color/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/print-with-color/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/print-with-color/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -36,11 +36,11 @@ pterm.FgLightWhite.Println("FgLightWhite")
 
 |Function|Description|
 |--------|-----------|
-|[String](https://pkg.go.dev/github.com/pterm/pterm#Color.String)|String converts the color to a string.|
+|[String](https://pkg.go.dev/github.com/avissian/pterm#Color.String)|String converts the color to a string.|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

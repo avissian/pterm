@@ -3,7 +3,7 @@ package pterm
 import (
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/avissian/pterm/internal"
 )
 
 // NewBulletListFromStrings returns a BulletListPrinter with Text using the NewTreeListItemFromString method.

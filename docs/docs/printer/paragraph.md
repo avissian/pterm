@@ -1,13 +1,13 @@
 # ParagraphPrinter
-    
-<!-- 
+
+<!--
 Replace all of the following strings with the current printer.
      paragraph Paragraph ParagraphPrinter DefaultParagraph
 -->
 
-![ParagraphPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/paragraph/animation.svg)
+![ParagraphPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/paragraph/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/paragraph/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/paragraph/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -31,11 +31,11 @@ pterm.DefaultParagraph.Println("Hello, World!")
 
 |Option|Type|
 |------|----|
-|[MaxWidth](https://pkg.go.dev/github.com/pterm/pterm#ParagraphPrinter.WithMaxWidth)|int|
+|[MaxWidth](https://pkg.go.dev/github.com/avissian/pterm#ParagraphPrinter.WithMaxWidth)|int|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

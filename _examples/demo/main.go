@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/avissian/pterm"
 )
 
 // Change this to time.Millisecond*200 to speed up the demo.

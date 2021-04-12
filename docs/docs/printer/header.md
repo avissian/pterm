@@ -1,13 +1,13 @@
 # HeaderPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      header Header HeaderPrinter DefaultHeader
 -->
 
-![HeaderPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/header/animation.svg)
+![HeaderPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/header/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/header/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/header/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -31,15 +31,15 @@ pterm.DefaultHeader.Println("Hello, World!")
 
 |Option|Type|
 |------|----|
-|[BackgroundStyle](https://pkg.go.dev/github.com/pterm/pterm#BigTextPrinter.WithBackgroundStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[FullWidth](https://pkg.go.dev/github.com/pterm/pterm#BigTextPrinter.WithFullWidth)|...bool|
-|[Margin](https://pkg.go.dev/github.com/pterm/pterm#BigTextPrinter.WithMargin)|int|
-|[TextStyle](https://pkg.go.dev/github.com/pterm/pterm#BigTextPrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
+|[BackgroundStyle](https://pkg.go.dev/github.com/avissian/pterm#BigTextPrinter.WithBackgroundStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[FullWidth](https://pkg.go.dev/github.com/avissian/pterm#BigTextPrinter.WithFullWidth)|...bool|
+|[Margin](https://pkg.go.dev/github.com/avissian/pterm#BigTextPrinter.WithMargin)|int|
+|[TextStyle](https://pkg.go.dev/github.com/avissian/pterm#BigTextPrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
 
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

@@ -1,13 +1,13 @@
 # TreePrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      tree Tree TreePrinter DefaultTree
 -->
 
-![TreePrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/tree/animation.svg)
+![TreePrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/tree/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/tree/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/tree/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -31,18 +31,18 @@ pterm.DefaultTree.WithRoot(pterm.NewTreeFromLeveledList(pterm.LeveledList{pterm.
 
 |Option|Type|
 |------|----|
-|[HorizontalString](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithHorizontalString)|string|
-|[Indent](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithIndent)|int|
-|[Root](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithRoot)|[TreeNode](https://pkg.go.dev/github.com/pterm/pterm#TreeNode)|
-|[TextStyle](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[TopRightCornerString](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithTopRightCornerString)|string|
-|[TopRightDownStringOngoing](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithTopRightDownStringOngoing)|string|
-|[TreeStyle](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithTreeStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[VerticalString](https://pkg.go.dev/github.com/pterm/pterm#TreePrinter.WithVerticalString)|string|
+|[HorizontalString](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithHorizontalString)|string|
+|[Indent](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithIndent)|int|
+|[Root](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithRoot)|[TreeNode](https://pkg.go.dev/github.com/avissian/pterm#TreeNode)|
+|[TextStyle](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithTextStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[TopRightCornerString](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithTopRightCornerString)|string|
+|[TopRightDownStringOngoing](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithTopRightDownStringOngoing)|string|
+|[TreeStyle](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithTreeStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[VerticalString](https://pkg.go.dev/github.com/avissian/pterm#TreePrinter.WithVerticalString)|string|
 
 ### Output functions
 
-> This printer implements the interface [`RenderablePrinter`](https://github.com/pterm/pterm/blob/master/interface_renderable_printer.go)
+> This printer implements the interface [`RenderablePrinter`](https://github.com/avissian/pterm/blob/master/interface_renderable_printer.go)
 
 |Function|Description|
 |------|---------|

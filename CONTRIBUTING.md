@@ -1,7 +1,7 @@
 # Contributing to PTerm
 
 > This document explains how to participate in the development of PTerm.\
-If your goal is to report a bug instead of programming PTerm, you can do so [here](https://github.com/pterm/pterm/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+If your goal is to report a bug instead of programming PTerm, you can do so [here](https://github.com/avissian/pterm/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
 ## Creating a new printer
 
@@ -92,7 +92,7 @@ func (p TemplatePrinter) Render() error {
 ```go
 // Start the TemplatePrinter.
 package pterm
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 type TemplatePrinter struct{
 

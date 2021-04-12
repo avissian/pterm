@@ -1,6 +1,6 @@
 // Package pterm is a modern go module to beautify console output.
 // It can be used without configuration, but if desired, everything can be customized down to the smallest detail.
-// View the animated examples here: https://github.com/pterm/pterm#-examples
+// View the animated examples here: https://github.com/avissian/pterm#-examples
 package pterm
 
 var (

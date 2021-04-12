@@ -1,8 +1,8 @@
 package pterm
 
 import (
+	"github.com/avissian/pterm/internal"
 	"github.com/gookit/color"
-	"github.com/pterm/pterm/internal"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"testing"

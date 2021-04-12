@@ -1,13 +1,13 @@
 # SectionPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      section Section SectionPrinter DefaultSection
 -->
 
-![SectionPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/section/animation.svg)
+![SectionPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/section/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/section/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/section/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -31,15 +31,15 @@ pterm.DefaultSection.Println("Hello, World!")
 
 |Option|Type|
 |------|----|
-|[BottomPadding](https://pkg.go.dev/github.com/pterm/pterm#SectionPrinter.WithBottomPadding)|int|
-|[IndentCharacter](https://pkg.go.dev/github.com/pterm/pterm#SectionPrinter.WithIndentCharacter)|string|
-|[Level](https://pkg.go.dev/github.com/pterm/pterm#SectionPrinter.WithLevel)|int|
-|[TopPadding](https://pkg.go.dev/github.com/pterm/pterm#SectionPrinter.WithTopPadding)|int|
-|[Style](https://pkg.go.dev/github.com/pterm/pterm#SectionPrinter.WithStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
+|[BottomPadding](https://pkg.go.dev/github.com/avissian/pterm#SectionPrinter.WithBottomPadding)|int|
+|[IndentCharacter](https://pkg.go.dev/github.com/avissian/pterm#SectionPrinter.WithIndentCharacter)|string|
+|[Level](https://pkg.go.dev/github.com/avissian/pterm#SectionPrinter.WithLevel)|int|
+|[TopPadding](https://pkg.go.dev/github.com/avissian/pterm#SectionPrinter.WithTopPadding)|int|
+|[Style](https://pkg.go.dev/github.com/avissian/pterm#SectionPrinter.WithStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|

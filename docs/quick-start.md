@@ -6,7 +6,7 @@ Just make sure your project has [`go modules`]() integration enabled.
 Adding PTerm to your project is as simple as executing this comment inside your project directory:
 
 ```commandline
-go get -u github.com/pterm/pterm
+go get -u github.com/avissian/pterm
 ```
 
 ## Write your first `Hello World` application with PTerm
@@ -14,7 +14,7 @@ go get -u github.com/pterm/pterm
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/avissian/pterm"
 
 func main() {
 	// Create a new header as a fork from pterm.DefaultHeader.

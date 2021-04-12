@@ -1,7 +1,7 @@
 package pterm
 
 import (
-	"github.com/pterm/pterm/internal"
+	"github.com/avissian/pterm/internal"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"strings"

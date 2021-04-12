@@ -1,13 +1,13 @@
 # ProgressbarPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      progressbar Progressbar ProgressbarPrinter DefaultProgressbar
 -->
 
-![ProgressbarPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/progressbar/animation.svg)
+![ProgressbarPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/progressbar/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/progressbar/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/progressbar/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -25,9 +25,9 @@ progressbar.Increase()
 
 |Function|Description|
 |--------|-----------|
-|[Add(count int)](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.Add)|Add `count` to current value.|
-|[GetElapsedTime()](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.GetElapsedTime)|GetElapsedTime returns the elapsed time, since the ProgressbarPrinter was started.|
-|[Increment()](https://pkg.go.dev/github.com/pterm/pterm#TemplatePrinter.Increment)|Increment current value by one.|
+|[Add(count int)](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.Add)|Add `count` to current value.|
+|[GetElapsedTime()](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.GetElapsedTime)|GetElapsedTime returns the elapsed time, since the ProgressbarPrinter was started.|
+|[Increment()](https://pkg.go.dev/github.com/avissian/pterm#TemplatePrinter.Increment)|Increment current value by one.|
 
 ### Options
 
@@ -42,23 +42,23 @@ progressbar.Increase()
 
 |Option|Type|
 |------|----|
-|[BarCharacter](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithBarCharacter)|string|
-|[BarStyle](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithBarStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[Current](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithCurrent)|int|
-|[ElapsedTimeRoundingFactor](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithElapsedTimeRoundingFactor)|time.Duration|
-|[LastCharacter](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithLastCharacter)|string|
-|[RemoveWhenDone](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithRemoveWhenDone)|...bool|
-|[ShowCount](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithShowCount)|...bool|
-|[ShowElapsedTime](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithShowElapsedTime)|...bool|
-|[ShowPercentage](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithShowPercentage)|...bool|
-|[ShowTitle](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithShowTitle)|...bool|
-|[Title](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithTitle)|string|
-|[TitleStyle](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithTitleStyle)|[*Style](https://pkg.go.dev/github.com/pterm/pterm#Style)|
-|[Total](https://pkg.go.dev/github.com/pterm/pterm#ProgressbarPrinter.WithTotal)|int|
+|[BarCharacter](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithBarCharacter)|string|
+|[BarStyle](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithBarStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[Current](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithCurrent)|int|
+|[ElapsedTimeRoundingFactor](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithElapsedTimeRoundingFactor)|time.Duration|
+|[LastCharacter](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithLastCharacter)|string|
+|[RemoveWhenDone](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithRemoveWhenDone)|...bool|
+|[ShowCount](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithShowCount)|...bool|
+|[ShowElapsedTime](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithShowElapsedTime)|...bool|
+|[ShowPercentage](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithShowPercentage)|...bool|
+|[ShowTitle](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithShowTitle)|...bool|
+|[Title](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithTitle)|string|
+|[TitleStyle](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithTitleStyle)|[*Style](https://pkg.go.dev/github.com/avissian/pterm#Style)|
+|[Total](https://pkg.go.dev/github.com/avissian/pterm#ProgressbarPrinter.WithTotal)|int|
 
 ### Output functions
 
-> This printer implements the interface [`LivePrinter`](https://github.com/pterm/pterm/blob/master/interface_live_printer.go)
+> This printer implements the interface [`LivePrinter`](https://github.com/avissian/pterm/blob/master/interface_live_printer.go)
 
 |Function|Description|
 |------|---------|

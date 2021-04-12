@@ -1,4 +1,4 @@
-# PTerm 
+# PTerm
 
 
 <p align="center">
@@ -9,20 +9,20 @@
 
 <br/>
 
-<a style="text-decoration: none" href="https://github.com/pterm/pterm/releases">
-<img src="https://img.shields.io/github/v/release/pterm/pterm?style=flat-square" alt="Latest Release">
+<a style="text-decoration: none" href="https://github.com/avissian/pterm/releases">
+<img src="https://img.shields.io/github/v/release/avissian/pterm?style=flat-square" alt="Latest Release">
 </a>
 &nbsp;
-<a style="text-decoration: none" href="https://github.com/pterm/pterm/stargazers">
-<img src="https://img.shields.io/github/stars/pterm/pterm.svg?style=flat-square" alt="Stars">
+<a style="text-decoration: none" href="https://github.com/avissian/pterm/stargazers">
+<img src="https://img.shields.io/github/stars/avissian/pterm.svg?style=flat-square" alt="Stars">
 </a>
 &nbsp;
-<a style="text-decoration: none" href="https://github.com/pterm/pterm/fork">
-<img src="https://img.shields.io/github/forks/pterm/pterm.svg?style=flat-square" alt="Forks">
+<a style="text-decoration: none" href="https://github.com/avissian/pterm/fork">
+<img src="https://img.shields.io/github/forks/avissian/pterm.svg?style=flat-square" alt="Forks">
 </a>
 &nbsp;
-<a style="text-decoration: none" href="https://github.com/pterm/pterm/issues">
-<img src="https://img.shields.io/github/issues/pterm/pterm.svg?style=flat-square" alt="Issues">
+<a style="text-decoration: none" href="https://github.com/avissian/pterm/issues">
+<img src="https://img.shields.io/github/issues/avissian/pterm.svg?style=flat-square" alt="Issues">
 </a>
 &nbsp;
 <a style="text-decoration: none" href="https://opensource.org/licenses/MIT">
@@ -33,15 +33,15 @@
 
 > ✨ A modern go module to beautify console output
 
-![PTerm Demo](https://raw.githubusercontent.com/pterm/pterm/master/_examples/demo/animation.svg)
+![PTerm Demo](https://raw.githubusercontent.com/avissian/pterm/master/_examples/demo/animation.svg)
 
 ## 🥅 Goal of PTerm
 
-PTerm is designed to create a **platform independent way to create beautiful terminal output**. Most modules that want to improve the terminal output do not guarantee platform independence - PTerm does. PTerm follows the **most common methods for displaying color in a terminal**. With PTerm, it is possible to create beautiful output **even in low-level environments**. 
+PTerm is designed to create a **platform independent way to create beautiful terminal output**. Most modules that want to improve the terminal output do not guarantee platform independence - PTerm does. PTerm follows the **most common methods for displaying color in a terminal**. With PTerm, it is possible to create beautiful output **even in low-level environments**.
 
 ### • 🪀 Easy to use
 
-Our first priority is to keep PTerm as easy to use as possible. With many [examples](https://github.com/pterm/pterm/tree/master/_examples) for each individual component, getting started with PTerm is extremely easy. All components are similar in design and implement interfaces to simplify mixing individual components together.
+Our first priority is to keep PTerm as easy to use as possible. With many [examples](https://github.com/avissian/pterm/tree/master/_examples) for each individual component, getting started with PTerm is extremely easy. All components are similar in design and implement interfaces to simplify mixing individual components together.
 
 ### • 🤹‍♀️ Cross-Platform
 
@@ -52,7 +52,7 @@ We take special precautions to ensure that PTerm works on as many operating syst
 ### • 🧪 Well tested
 
 > PTerm has a 100% test coverage, which means that every line of code inside PTerm gets tested automatically
-We test PTerm continuously. However, since a human cannot test everything all the time, we have our own test system with which we currently run thousands of automated tests to ensure that PTerm has no bugs. 
+We test PTerm continuously. However, since a human cannot test everything all the time, we have our own test system with which we currently run thousands of automated tests to ensure that PTerm has no bugs.
 
 ### • ✨ Consistent Colors
 

@@ -1,13 +1,13 @@
 # RGBPrinter
 
-<!-- 
+<!--
 Replace all of the following strings with the current printer.
      print-color-rgb RGB RGBPrinter DefaultRGB
 -->
 
-![RGBPrinter Example](https://raw.githubusercontent.com/pterm/pterm/master/_examples/print-color-rgb/animation.svg)
+![RGBPrinter Example](https://raw.githubusercontent.com/avissian/pterm/master/_examples/print-color-rgb/animation.svg)
 
-<p align="center"><a href="https://github.com/pterm/pterm/blob/master/_examples/print-color-rgb/main.go" target="_blank">(Show source of demo)</a></p>
+<p align="center"><a href="https://github.com/avissian/pterm/blob/master/_examples/print-color-rgb/main.go" target="_blank">(Show source of demo)</a></p>
 
 
 ## Usage
@@ -22,14 +22,14 @@ pterm.NewRGB(178, 44, 199).Println("This text is printed with a custom RGB!")
 
 |Function|Description|
 |--------|-----------|
-|[NewRGB](https://pkg.go.dev/github.com/pterm/pterm#RGB.NewRGB)|NewRGB returns a new RGB.|
-|[NewRGBFromHEX](https://pkg.go.dev/github.com/pterm/pterm#RGB.NewRGBFromHEX)|NewRGBFromHEX converts a HEX and returns a new RGB.|
-|[Fade](https://pkg.go.dev/github.com/pterm/pterm#RGB.Fade)|Fade fades one RGB value (over other RGB values) to another RGB value, by giving the function a minimum, maximum and current value.|
-|[GetValues](https://pkg.go.dev/github.com/pterm/pterm#RGB.GetValues)|GetValues returns the RGB values separately.|
+|[NewRGB](https://pkg.go.dev/github.com/avissian/pterm#RGB.NewRGB)|NewRGB returns a new RGB.|
+|[NewRGBFromHEX](https://pkg.go.dev/github.com/avissian/pterm#RGB.NewRGBFromHEX)|NewRGBFromHEX converts a HEX and returns a new RGB.|
+|[Fade](https://pkg.go.dev/github.com/avissian/pterm#RGB.Fade)|Fade fades one RGB value (over other RGB values) to another RGB value, by giving the function a minimum, maximum and current value.|
+|[GetValues](https://pkg.go.dev/github.com/avissian/pterm#RGB.GetValues)|GetValues returns the RGB values separately.|
 
 ### Output functions
 
-> This printer implements the interface [`TextPrinter`](https://github.com/pterm/pterm/blob/master/interface_text_printer.go)
+> This printer implements the interface [`TextPrinter`](https://github.com/avissian/pterm/blob/master/interface_text_printer.go)
 
 |Function|Description|
 |------|---------|
